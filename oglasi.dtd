@@ -1,0 +1,11 @@
+<!ELEMENT Oglasi (Oglas+)>
+<!ELEMENT Oglas (Kategorija,DatumIsteka,Cena,Tekst,Oznake,Mejlovi)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Tekst (#PCDATA)>
+<!ELEMENT Oznake (Oznaka+)>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT Mejlovi (Email+)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ATTLIST Cena valuta (RSD|EUR) "RSD">
+<!ATTLIST Email tip (privatni|sluzbeni) #REQUIRED>
