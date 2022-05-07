@@ -2,7 +2,7 @@
     <Oglas>
         <Kategorija tip="Automobil"></Kategorija>
         <DatumIsteka></DatumIsteka>
-        <Cena valuta=""></Cena>
+        <Cena valuta="RSD"></Cena>
         <Tekst></Tekst>
         <Oznake>
             <Oznaka></Oznaka>
