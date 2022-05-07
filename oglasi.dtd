@@ -7,5 +7,6 @@
 <!ELEMENT Mejlovi (Email+)>
 <!ELEMENT Email (#PCDATA)>
 
+<!ATTLIST Kategorija tip (Automobil|Motor|Nekretnina) #REQUIRED>
 <!ATTLIST Cena valuta (RSD|EUR) "RSD">
 <!ATTLIST Email tip (privatni|sluzbeni) #REQUIRED>
