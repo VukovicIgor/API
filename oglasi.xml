@@ -4,7 +4,17 @@
         <DatumIsteka></DatumIsteka>
         <Cena valuta="RSD"></Cena>
         <Tekst></Tekst>
-        <Oznaka></Oznaka>
-        <Email tip=""></Email>
+        <Oznake>
+            <Oznaka></Oznaka>
+            <Oznaka></Oznaka>
+            <Oznaka></Oznaka>
+            <Oznaka></Oznaka>
+            <Oznaka></Oznaka>
+        </Oznake>
+        <Mejlovi>
+            <Email tip=""></Email>
+            <Email tip=""></Email>
+            <Email tip=""></Email>
+        </Mejlovi>
     </Oglas>
 </Oglasi>
