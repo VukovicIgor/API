@@ -1,8 +1,8 @@
 <Oglasi>
     <Oglas>
-        <Kategorija></Kategorija>
+        <Kategorija tip=""></Kategorija>
         <DatumIsteka></DatumIsteka>
-        <Cena valuta="RSD"></Cena>
+        <Cena valuta=""></Cena>
         <Tekst></Tekst>
         <Oznake>
             <Oznaka></Oznaka>
