@@ -1,0 +1,10 @@
+<Oglasi>
+    <Oglas>
+        <Kategorija></Kategorija>
+        <DatumIsteka></DatumIsteka>
+        <Cena valuta="RSD"></Cena>
+        <Tekst></Tekst>
+        <Oznaka></Oznaka>
+        <Email tip=""></Email>
+    </Oglas>
+</Oglasi>
