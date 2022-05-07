@@ -1,5 +1,7 @@
 <!ELEMENT Oglasi (Oglas+)>
 <!ELEMENT Oglas (Kategorija,DatumIsteka,Cena,Tekst,Oznake,Mejlovi)>
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT DatumIsteka (#PCDATA)>
 <!ELEMENT Cena (#PCDATA)>
 <!ELEMENT Tekst (#PCDATA)>
 <!ELEMENT Oznake (Oznaka+)>
