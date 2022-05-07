@@ -1,6 +1,6 @@
 <Oglasi>
     <Oglas>
-        <Kategorija tip=""></Kategorija>
+        <Kategorija tip="Automobil"></Kategorija>
         <DatumIsteka></DatumIsteka>
         <Cena valuta=""></Cena>
         <Tekst></Tekst>
@@ -12,9 +12,9 @@
             <Oznaka></Oznaka>
         </Oznake>
         <Mejlovi>
-            <Email tip=""></Email>
-            <Email tip=""></Email>
-            <Email tip=""></Email>
+            <Email tip="Privatni"></Email>
+            <Email tip="Privatni"></Email>
+            <Email tip="Privatni"></Email>
         </Mejlovi>
     </Oglas>
 </Oglasi>
