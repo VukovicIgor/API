@@ -10,17 +10,7 @@
         </DatumIsteka>
         <Cena valuta="RSD"></Cena>
         <Tekst></Tekst>
-        <Oznake>
-            <Oznaka></Oznaka>
-            <Oznaka></Oznaka>
-            <Oznaka></Oznaka>
-            <Oznaka></Oznaka>
-            <Oznaka></Oznaka>
-        </Oznake>
-        <Mejlovi>
-            <Email tip="Privatni"></Email>
-            <Email tip="Privatni"></Email>
-            <Email tip="Privatni"></Email>
-        </Mejlovi>
+        <Oznaka></Oznaka>
+        <Email tip="Privatni"></Email>
     </Oglas>
 </Oglasi>
