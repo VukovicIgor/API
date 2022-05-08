@@ -5,6 +5,11 @@
         <xs:minInclusive value="0"/>
     </xs:restriction>
 </xs:simpleType>
+<xs:simpleType name="mail">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[_\-a-zA-Z0-9\.\+]+@[a-zA-Z0-9](\.?[\-a-zA-Z0-9]*[a-zA-Z0-9])*"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
 <xs:element name="Oglasi">
     <xs:complexType>
         <xs:sequence>
@@ -67,14 +72,29 @@
                                 </xs:simpleContent>
                             </xs:complexType>
                         </xs:element>
-                        <xs:element name="Oznake">
+                        <xs:element name="Tekst">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="10"></xs:minLength>
+                                    <xs:maxLength value="180"></xs:maxLength>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="Oznaka" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                        <xs:element name="Email" minOccurs="1" maxOccurs="unbounded">
                             <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name="Oznaka">
-                                        
-                                    </xs:element>
-                                </xs:sequence>
-                            </xs:complexType> 
+                                <xs:simpleContent>
+                                    <xs:extension base="mail">
+                                        <xs:attribute name="tip">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="Privatni|Sluzbeni"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
                         </xs:element>
                     </xs:sequence>
                 </xs:complexType>
