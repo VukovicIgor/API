@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Oglasi SYSTEM "oglasi.dtd">
+<Oglasi>
+    <Oglas>
+        <Kategorija tip="Automobil"></Kategorija>
+        <DatumIsteka>
+            <Dan></Dan>
+            <Mesec></Mesec>
+            <Godina></Godina>
+        </DatumIsteka>
+        <Cena valuta="RSD"></Cena>
+        <Tekst></Tekst>
+        <Oznaka></Oznaka>
+        <Email tip="Privatni"></Email>
+    </Oglas>
+</Oglasi>
