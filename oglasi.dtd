@@ -1,5 +1,5 @@
 <!ELEMENT Oglasi (Oglas+)>
-<!ELEMENT Oglas (Kategorija,DatumIsteka,Cena,Tekst,Oznake,Mejlovi)>
+<!ELEMENT Oglas (Kategorija,DatumIsteka,Cena,Tekst,Oznaka,Email)>
 <!ELEMENT Kategorija (#PCDATA)>
 <!ELEMENT DatumIsteka (Dan,Mesec,Godina)>
 <!ELEMENT Dan (#PCDATA)>
@@ -7,9 +7,7 @@
 <!ELEMENT Godina (#PCDATA)>
 <!ELEMENT Cena (#PCDATA)>
 <!ELEMENT Tekst (#PCDATA)>
-<!ELEMENT Oznake (Oznaka+)>
 <!ELEMENT Oznaka (#PCDATA)>
-<!ELEMENT Mejlovi (Email+)>
 <!ELEMENT Email (#PCDATA)>
 
 <!ATTLIST Kategorija tip (Automobil|Motor|Nekretnina) #REQUIRED>
