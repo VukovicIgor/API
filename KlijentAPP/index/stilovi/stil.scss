@@ -1,0 +1,51 @@
+$plava: #1874b2;
+$plavaTekst: #0d405f;
+$siva: #f8f9fa;
+#naslov{
+    padding-left: 1%;
+    font-size: 50px;
+    #alo{
+        color: red;
+    }
+    #oglasi{
+        color: $plava;
+    }
+}
+nav{
+    .nav-link.active span{
+        color: $plavaTekst !important; 
+        font-weight: bold;
+    }
+    div{
+        padding-left: 1%;
+    }
+    .nav-item span{
+        color: red;
+    }
+    li{
+        font-size: px;
+    }
+}
+div.container-fluid.telo {
+    a{
+        text-decoration: none;
+    }
+    height: 50%;
+    .col{
+        border: #0d405f;
+    }
+    margin-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    span i{
+        padding-top: 15%;
+        padding-bottom: 15%;
+        font-size: 1500%;
+        color: $plava;
+        text-align: center;
+    }
+    i{
+        font-size: 30px;
+        color: $plavaTekst;
+    }
+}
