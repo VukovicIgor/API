@@ -3,7 +3,11 @@
 <Oglasi>
     <Oglas>
         <Kategorija tip="Automobil"></Kategorija>
-        <DatumIsteka></DatumIsteka>
+        <DatumIsteka>
+            <Dan></Dan>
+            <Mesec></Mesec>
+            <Godina></Godina>
+        </DatumIsteka>
         <Cena valuta="RSD"></Cena>
         <Tekst></Tekst>
         <Oznake>
