@@ -13,6 +13,7 @@ app.get("/", (request,response)=>{
 
 app.get("/sviOglasi",(request,response)=>{
     response.send(OglasiServis.sviOglasi())
+    
 })
 
 app.listen(port,()=>{console.log(`Startovan server na portu ${port}`)})

@@ -9,8 +9,8 @@ let procitajPodatke=()=>{
     return JSON.parse(oglasi)
 }
 
-let snimanje=(data)=>{
-    return procitajPodatke();
+let snimanje=(oglasi)=>{
+    fs.writeFileSync(putanja,JSON.stringify(oglasi))
 }
 
 exports.sviOglasi=()=>{
@@ -33,7 +33,7 @@ exports.dohvatiOglas=(id)=>{
 }
 
 exports.obrisiOglas=(id)=>{
-    snimanje(this.sviOglasi().filter(oglas))
+    snimanje(this.sviOglasi().filter(o=>id!=id))
 }
 
 exports.filtrirajPoKategoriji=(kategorija)=>{
