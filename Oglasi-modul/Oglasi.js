@@ -19,11 +19,13 @@ exports.sviOglasi=()=>{
 
 exports.dodajOglas=(novOglas)=>{
     let id=1
-    let oglasi=this.oglasi();
+    let oglasi=this.sviOglasi();
     if(oglasi.length>0){
         id=oglasi[oglasi.length-1].id+1
     }
-    //ZAVRSI
+    novOglas.id=id
+    oglasi.push(novOglas)
+    snimanje(oglasi)
 }
 
 exports.dohvatiOglas=(id)=>{
