@@ -1,0 +1,81 @@
+#naslov {
+  padding-left: 1%;
+  font-size: 50px;
+}
+
+#naslov #alo {
+  color: red;
+}
+
+#naslov #oglasi {
+  color: #1874b2;
+}
+
+nav {
+  background-color: #e8e4da;
+}
+
+nav .nav-link.active span {
+  color: #0d405f !important;
+  font-weight: bold;
+}
+
+nav div {
+  padding-left: 1%;
+}
+
+nav .nav-item span {
+  color: red;
+}
+
+nav li {
+  font-size: px;
+}
+
+div.container-fluid.telo {
+  height: 50%;
+  margin-top: 3%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+div.container-fluid.telo a {
+  text-decoration: none;
+}
+
+div.container-fluid.telo .col {
+  border: #0d405f;
+}
+
+div.container-fluid.telo span i {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  font-size: 1500%;
+  color: #1874b2;
+  text-align: center;
+}
+
+div.container-fluid.telo i {
+  font-size: 30px;
+  color: #0d405f;
+}
+
+#forma {
+  margin-top: 3%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+#forma .hidden {
+  display: none;
+}
+
+#forma a {
+  text-decoration: none;
+}
+
+#forma .col-2 {
+  font-size: 25px;
+  text-align: center;
+}
+/*# sourceMappingURL=stil.css.map */
