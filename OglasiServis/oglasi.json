@@ -1,1 +1,4 @@
-[{"id":1,"kategorija":"Automobil","datumIsteka":"1.1.1111.","cena":{"iznos":1000.00,"valuta":"RSD"},"opis":"Neki opisssssssss","oznaka":["a","b"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"privatni"},{"mail":"rolovanaveverica@gmail.com","tip":"privatni"}]}]
+[
+    {"id":1,"kategorija":"Automobil","datumIsteka":"1.1.1111.","cena":{"iznos":1000.00,"valuta":"RSD"},"opis":"Neki opisssssssss","oznaka":["a","b"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"privatni"},{"mail":"rolovanaveverica@gmail.com","tip":"privatni"}]},
+    {"id":1,"kategorija":"Motor","datumIsteka":"1.1.1111.","cena":{"iznos":1000.00,"valuta":"RSD"},"opis":"Neki opisssssssss","oznaka":["a","b"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"privatni"},{"mail":"rolovanaveverica@gmail.com","tip":"privatni"}]}
+]

@@ -28,14 +28,18 @@ exports.dodajOglas=(novOglas)=>{
     snimanje(oglasi)
 }
 
-exports.dohvatiOglas=(id)=>{
-    return this.sviOglasi().find(x=>x.id==id)
+exports.izmenaOglasa = (oglas) => {
+    this.oglasi[this.oglasi.findIndex(o => o.id == oglas.id)] = oglas
 }
+
+//exports.dohvatiOglas=(id)=>{
+//    return this.sviOglasi().find(x=>x.id==id)
+//}
 
 exports.obrisiOglas=(id)=>{
-    snimanje(this.sviOglasi().filter(o=>id!=id))
+    snimanje(this.sviOglasi().filter(oglas=>oglas.id!=id))
 }
 
-exports.filtrirajPoKategoriji=(kategorija)=>{
+exports.filterKategorija=(kategorija)=>{
     return this.sviOglasi().filter(oglas=>oglas.kategorija==kategorija)
 }

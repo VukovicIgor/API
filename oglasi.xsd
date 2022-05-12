@@ -80,8 +80,8 @@
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
-                        <xs:element name="Oznaka" minOccurs="1" maxOccurs="unbounded"></xs:element>
-                        <xs:element name="Email" minOccurs="1" maxOccurs="unbounded">
+                        <xs:element name="Oznaka" minOccurs="1" maxOccurs="6"></xs:element>
+                        <xs:element name="Email" minOccurs="1" maxOccurs="3">
                             <xs:complexType>
                                 <xs:simpleContent>
                                     <xs:extension base="mail">
