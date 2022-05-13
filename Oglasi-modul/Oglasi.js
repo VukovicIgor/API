@@ -1,5 +1,5 @@
 const fs= require("fs");
-const putanja="oglasi.json";
+const putanja="../OglasiServis/oglasi.json";
 
 let procitajPodatke=()=>{
     let oglasi=fs.readFileSync(putanja,(err,data)=>{
@@ -29,12 +29,15 @@ exports.dodajOglas=(novOglas)=>{
 }
 
 exports.izmenaOglasa = (oglas) => {
-    this.oglasi[this.oglasi.findIndex(o => o.id == oglas.id)] = oglas
+    let oglasi=this.sviOglasi();
+    let id=parseInt(oglas.id)
+    oglasi[oglasi.findIndex(oglas => oglas.id == id)] = oglas
+    snimanje(oglasi)
 }
 
-//exports.dohvatiOglas=(id)=>{
-//    return this.sviOglasi().find(x=>x.id==id)
-//}
+exports.dohvatiOglas=(id)=>{
+   return this.sviOglasi().find(x=>x.id==id)
+}
 
 exports.obrisiOglas=(id)=>{
     snimanje(this.sviOglasi().filter(oglas=>oglas.id!=id))

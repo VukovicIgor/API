@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "klijentapp": "file:../KlijentAPP",
+    "oglasi-modul": "file:../Oglasi-modul"
   }
 }

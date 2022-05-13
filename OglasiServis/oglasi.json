@@ -1,4 +1,1 @@
-[
-    {"id":1,"kategorija":"Automobil","datumIsteka":"1.1.1111.","cena":{"iznos":1000.00,"valuta":"RSD"},"opis":"Neki opisssssssss","oznaka":["a","b"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"privatni"},{"mail":"rolovanaveverica@gmail.com","tip":"privatni"}]},
-    {"id":1,"kategorija":"Motor","datumIsteka":"1.1.1111.","cena":{"iznos":1000.00,"valuta":"RSD"},"opis":"Neki opisssssssss","oznaka":["a","b"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"privatni"},{"mail":"rolovanaveverica@gmail.com","tip":"privatni"}]}
-]
+[{"id":1,"kategorija":"Automobil","datumIsteka":"2022-05-28","cena":{"iznos":"4000","valuta":"EUR"},"opis":"Opel Astra H 2009 2.0L 120hp","oznaka":["a","","","","",""],"email":[{"mail":"igor1vukovic@gmail.com","tip":"Privatan"},{"mail":"","tip":" "},{"mail":"","tip":" "}]},{"id":2,"kategorija":"Automobil","datumIsteka":"2022-05-28","cena":{"iznos":"100","valuta":"RSD"},"opis":"MILOS TOJAGIC 4.0L MNOGO KONJA","oznaka":["q","w","e","r","t","y"],"email":[{"mail":"igor1vukovic@gmail.com","tip":"Privatan"},{"mail":"igor1vukovic@gmail.com","tip":"Službeni"},{"mail":"AAAAA@gmail.com","tip":"Privatan"}]}]
